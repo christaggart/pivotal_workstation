@@ -1,6 +1,6 @@
 dmg_package "VirtualBox" do
-  source "http://download.virtualbox.org/virtualbox/4.2.8/VirtualBox-4.2.8-83876-OSX.dmg"
-  checksum "e090da9766a1780a4f1fc6b3b85fe8b7ce71c8030d1fda9e7178716009d69a33"
+  source "http://download.virtualbox.org/virtualbox/4.2.12/VirtualBox-4.2.12-84980-OSX.dmg"
+  checksum "75d3e5f1fe264faf937db7e7db12765cd643f6eaac18cbb44801a0108196b32a"
   action :install
   owner WS_USER
   type "pkg"
