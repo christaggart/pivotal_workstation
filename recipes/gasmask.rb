@@ -11,7 +11,7 @@ unless File.exists?(node["gasmask_app_path"])
   end
 
   execute "copy gasmask to /Applications" do
-    command "mv `#{Chef::Config[:file_cache_path]}/Gas Mask.app` #{Regexp.escape(node["gasmask_app_path"])}"
+    command "mv '#{Chef::Config[:file_cache_path]}/Gas Mask.app' #{Regexp.escape(node["gasmask_app_path"])}"
     user WS_USER
     group "admin"
   end
